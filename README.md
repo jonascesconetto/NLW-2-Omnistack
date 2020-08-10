@@ -1,6 +1,6 @@
-Next Level Week Segunda Edição.
+# Next Level Week Segunda Edição.
 
-*Trilha Omnistack*
+## NLW-2-Omnistack
 
 Uma maratona intensa, com o maior aproveitamento ir o mais longe possível durante uma semana.
 
