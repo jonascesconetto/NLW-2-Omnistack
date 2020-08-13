@@ -1,6 +1,4 @@
-# Next Level Week Segunda Edição.
-
-## NLW-2-Omnistack
+# NLW-2-Omnistack
 
 Uma maratona intensa, com o maior aproveitamento ir o mais longe possível durante uma semana.
 
