@@ -83,12 +83,12 @@ export default class ClassesController{
         
             const class_id = insertedClassesIds[0];
         
-            const classSchedule = schedule.map((scheduleitem: ScheduleItem) => {
+            const classSchedule = schedule.map((scheduleItem: ScheduleItem) => {
                 return{
                     class_id,
-                    week_day: scheduleitem.week_day,
-                    from: convertHourToMinutes(scheduleitem.from),
-                    to: convertHourToMinutes(scheduleitem.to)
+                    week_day: scheduleItem.week_day,
+                    from: convertHourToMinutes(scheduleItem.from),
+                    to: convertHourToMinutes(scheduleItem.to)
                 };
             })
         

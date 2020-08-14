@@ -9,6 +9,7 @@ import './styles.css'
 
 interface PageHeaderProps{
     title: string; // dessa forma indica que é obrigatório
+    description?: string; // a inclusão do ? torna essa propriedade não obrigatória
 }
 
 const PageHeader: React.FC<PageHeaderProps> = (props) => { // react é do tipo Function Componente
@@ -26,7 +27,10 @@ const PageHeader: React.FC<PageHeaderProps> = (props) => { // react é do tipo F
                     {props.title}
                 </strong>
                 
+                { props.description && <p> {props.description} </p> } {/* condicional -> o segundo elemento após && só executado caso a condição do primeiro seja atendida */}
+
                 {props.children}
+
             </div>    
         </header>
     );
